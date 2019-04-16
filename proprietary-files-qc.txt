@@ -370,27 +370,57 @@ vendor/lib64/libvpplibrary.so|9801e062790202f7aa640c866415be71177908f7
 vendor/lib/libwms.so|61efcd8bc52e28b7a9b978da0af62355b358887c
 vendor/lib64/libwms.so|57d9f33071f4ae42ac77c98fb82f4e1fe8ac4754
 
-# Perf - from Tissot PKQ1.180917.001/V10.0.2.0.PDHMIFK
-lib/vendor.qti.hardware.perf@1.0.so|279ed2463248210c433c615c50ec94ecd624f7ac
-lib64/vendor.qti.hardware.perf@1.0.so|978a16bc6f27967f6345c5b51386d50768553ab5
-vendor/bin/energy-awareness|d9b3f1cc791e0e9612a5ff5df6836af4c921a52b
-vendor/bin/hw/vendor.qti.hardware.perf@1.0-service|3f4cf13499019e7e3747679220b280f4f204b8de
-vendor/bin/msm_irqbalance|bf933b58332cf94fe4a2072bc3e976a6a82efe3c
+# Perf - from OnePlus6T-user 9 PKQ1.180716.001 1902140000 release-keys
+bin/perfservice|c584edf133dd2c0120365bf30d08034eb2ecc54c
+etc/init/perfservice.rc|67144c3f1800f976cb58463c4370882d2d820947
+etc/perf/whitelistedapps.xml|019e8b114d1befe6f8f476dbc5c8be0d84a91627
+-framework/QPerformance.jar|8ad92bdfe554e6317fc67c36d707b30e7166aa63
+-framework/UxPerformance.jar|228c5c606e47e672b0fff0daa5157d544c11f7ca
+lib/libqti-at.so|71dbc61597cf470d5c64c32875fa7ad738bfbc96
+lib/libqti-perfd-client_system.so|fdc85399bb9a9e5c4bf34e000b2f3567c248e8db
+lib/libqti-util_system.so|083aa59b199edf21150623874adb28b2a315a6cc
+lib/libqti_performance.so|89ad01747faa787ecdcb68841fa9b379bf6a6b90
+lib/vendor.qti.hardware.iop@1.0.so|f2b5c17ce9690569d2a74f5b01a345e383f0c20d
+lib/vendor.qti.hardware.iop@2.0.so|767246e2fc7fafe9c61c86a939f2fa99504c359e
+lib/vendor.qti.hardware.perf@1.0.so|0ed43b650fba00e97feef696827391b6d3b75425
+lib64/libqti-at.so|1d0ed08faaa4baef919c56c95ef4f22e8456c3aa
+lib64/libqti-perfd-client_system.so|a88a554815a6257d4c4aba4a967e7910368e575b
+lib64/libqti-util_system.so|92f53167fafb35bea4abec8a758b24e00b08db0d
+lib64/libqti_performance.so|792b8a13a85b6d432be41599f03c3455e7414381
+lib64/vendor.qti.hardware.iop@1.0.so|9c7ae329d073ee5bc2d9743ca6ad6da0b7200537
+lib64/vendor.qti.hardware.iop@2.0.so|858e8bec809f800eb7ad1df8b743cdbde8c4296b
+lib64/vendor.qti.hardware.perf@1.0.so|52e3b9d8970ae0109902a9e14fed69ea311f0afc
+vendor/bin/hw/vendor.qti.hardware.iop@2.0-service|ede42a372a8f22e67b20b090c8a6f19562da2131
+vendor/bin/hw/vendor.qti.hardware.perf@1.0-service|ca24037c85033a1943bfa15ed34eca5c2bb62b9f
+vendor/bin/msm_irqbalance|b92c68241241cc5d2c5086d4be3d57d96ba8f23c
+vendor/etc/init/vendor.qti.hardware.iop@2.0-service.rc|fd11367b2585702190ef2577ce2ce6fc68f3a2f8
 vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc|b50182aadab2e31409df61c523d0fb914a394e43
+vendor/lib/hw/vendor.qti.hardware.iop@2.0-impl.so|c0111da9fb998a83271bdecbe94a02fcf088468f
+vendor/lib/libperfgluelayer.so|b4e713c638d8bdb966d6863904a13ce508bdf311
+vendor/lib/libqti-iopd-client.so|cea25d96490888d195921815cd32a6d81fdec1a6
+vendor/lib/libqti-iopd.so|70443f1e046b72255242232a16b963fc3c0ca981
+vendor/lib/libqti-perfd-client.so|abf2cb62c37062b1220bf9d8d2c0d82ff55bf43e
+vendor/lib/libqti-perfd.so|c25fb0af203a256df0731406ad348531cdb094eb
+vendor/lib/libqti-util.so|74f30c5f28cfd7c2306854539c45f96d77cc89da
+vendor/lib/vendor.qti.hardware.iop@1.0.so|32549ec4f679efb099158aac200b238e837003ee
+vendor/lib/vendor.qti.hardware.iop@2.0.so|925c43e2d241057683e85dd9ea0670497be7c568
+vendor/lib/vendor.qti.hardware.perf@1.0.so|e2313e4c7992367f9b9597af725345c9cc256e06
+vendor/lib64/hw/vendor.qti.hardware.iop@2.0-impl.so|7ad1b07053380495e749e16a23eaeb2219c1c6a5
+vendor/lib64/libperfgluelayer.so|5932c7b79876f8464a8c24ed8639eb372fa36ee4
+vendor/lib64/libqti-iopd-client.so|2a327912d99758ff36b20c631d1c741870eea051
+vendor/lib64/libqti-iopd.so|5fecce932d982459a162653c3e928e7f98bd66d1
+vendor/lib64/libqti-perfd-client.so|c167e3d2ca056ab7fa69952b24ce30568c66b4b1
+vendor/lib64/libqti-perfd.so|1f288ab812949cb7ef2a546896c41a3d8bbbe08f
+vendor/lib64/libqti-util.so|f5c14ff866524a8326846823875005a67010089e
+vendor/lib64/vendor.qti.hardware.iop@1.0.so|4a8605daa067d6b618a1f926308471fd681795e4
+vendor/lib64/vendor.qti.hardware.iop@2.0.so|42dd3c577522ad389a2579875eed625282b05356
+vendor/lib64/vendor.qti.hardware.perf@1.0.so|a3179df9485bb9623a1c64f3cdf12a11a0fba2cf
+
+#Perf Configs - from Tissot PKQ1.180917.001/V10.0.2.0.PDHMIFK
 vendor/etc/perf/commonresourceconfigs.xml|20280e40ca43784316e96be09fe2d2296d79e972
 vendor/etc/perf/perfboostsconfig.xml|7e21bd6dd6fcbbbfc132bccef782ca8bcbe88184
 vendor/etc/perf/targetconfig.xml|1e240759319696ae5920a35d675317b7a4456685
 vendor/etc/perf/targetresourceconfigs.xml|f905a4f59091686d732d7121a9066e79d395056d
-vendor/lib/libperfgluelayer.so|3e6074dca57a25dd07c6398e8a7fc89e7a1d3f2a
-vendor/lib/libqti-perfd-client.so|9d39e6040aae2bda16389679ae2d892cf2d522d1
-vendor/lib/libqti-perfd.so|aab65a0c9d84c8161306a6de81f989cb7e5cb573
-vendor/lib/libqti-util.so|ca0e14efdcec2a85b894ce1b8559f481da2db1ed
-vendor/lib/vendor.qti.hardware.perf@1.0.so|279ed2463248210c433c615c50ec94ecd624f7ac
-vendor/lib64/libperfgluelayer.so|e8bc850cbb8d2c2b9ed8c6b9c48eb4b1fd197622
-vendor/lib64/libqti-perfd-client.so|d9fb126fb7aff2db61978f46f78e0284e95183be
-vendor/lib64/libqti-perfd.so|96806732f4e5f8c25ba2e12a3a939fc2889c7341
-vendor/lib64/libqti-util.so|30dc90c1636fd100a8e101dfa659e0b7299ff813
-vendor/lib64/vendor.qti.hardware.perf@1.0.so|978a16bc6f27967f6345c5b51386d50768553ab5
 
 # Peripheral manager - from Tissot PKQ1.180917.001/V10.0.2.0.PDHMIFK
 vendor/bin/pm-proxy|56e9bdaa39270aa4456c9995a8a9e4618ba616a6
